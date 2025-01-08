@@ -1,0 +1,23 @@
+import pgzrun
+
+WIDTH=300
+HEIGHT=300
+
+def draw():
+    screen.fill("light blue")
+
+    ra=Rect((150,150),(150,100))
+    ra.center=(75,50)
+    #screen.draw.rect(r,"black")
+    screen.draw.filled_rect(ra,"black")
+
+
+
+
+    rb=Rect((150,150),(150,100))
+    rb.center=(225,250)
+    screen.draw.rect(rb,"yellow")
+    #screen.draw.filled_rect(rb,"yellow")
+
+
+pgzrun.go()
